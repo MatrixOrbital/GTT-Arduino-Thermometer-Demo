@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 3.6)
+project(gttclient)
+add_subdirectory(GttClient)
+if(MSVC)
+	add_subdirectory(examples/windows)
+endif()
+	add_subdirectory(examples/generic)
