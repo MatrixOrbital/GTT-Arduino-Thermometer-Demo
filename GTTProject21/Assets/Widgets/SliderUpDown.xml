@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GTTProject FileFormatRevision="103" xmlns="clr-namespace:GTT.Project.Common;assembly=GTT.Project.Common" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <GTTProject.Screens>
+    <ScreenCollection>
+      <Screen>
+        <Screen.Children>
+          <GuiElementCollection>
+            <GuiBox DeviceOnly="False" ConstrainWidthToHeight="False" CornerSize="4" BorderColour="#FF5D5D5D" BackgroundColour="#FFBABABF" LockWidthHeight="False" ElementName="Rectangle_Background" Theme="{x:Null}" Top="110" Left="5" ZOrder="0" Width="380" Height="60" />
+            <GuiAdvancedSliceGraph CacheNumerics="True" PreferedBarID="2" MaxValue="100" MinValue="0" DefaultValue="65" Orientation="Horizontal" BarForegroundColor="#FFBABABF" BarBackgroundColor="#FF5D5D5D" BarBorderColor="#FFEEF0F2" CornerSize="12" BorderSize="2" LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="10" LabelColour="#FFEEF0F2" LabelDecimalPlaces="0" IsTouchEnabled="True" ElementName="Slice_Graph_Value" Theme="(Project Default)" Top="115" Left="70" ZOrder="0" Width="250" Height="50" />
+            <GuiTriangleButton Rotation="Left" LockWidthHeight="True" ButtonFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" PreferedRegionID="-1" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" ImageStretch="Uniform" ImageAlignment="Center" BorderSize="2" Text="- " ButtonTextSize="12" TextColour="#FFEEF0F2" ButtonColour="#FF5D5D5D" Bitmap="{x:Null}" ImageTransparency="1" ToggleEnable="False" ElementName="Triangle_Button_Down" Theme="(Project Default)" Top="115" Left="10" ZOrder="0" Width="50" Height="50">
+              <GuiTriangleButton.OnUpAction>
+                <GTTActionList />
+              </GuiTriangleButton.OnUpAction>
+              <GuiTriangleButton.OnDownAction>
+                <GTTActionList />
+              </GuiTriangleButton.OnDownAction>
+              <GuiTriangleButton.ActionScriptUp>
+                <ScriptAction />
+              </GuiTriangleButton.ActionScriptUp>
+              <GuiTriangleButton.ActionScriptDown>
+                <ScriptAction />
+              </GuiTriangleButton.ActionScriptDown>
+            </GuiTriangleButton>
+            <GuiTriangleButton Rotation="Right" LockWidthHeight="True" ButtonFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" PreferedRegionID="-1" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" ImageStretch="Uniform" ImageAlignment="Center" BorderSize="2" Text=" +" ButtonTextSize="10" TextColour="#FFEEF0F2" ButtonColour="#FF5D5D5D" Bitmap="{x:Null}" ImageTransparency="1" ToggleEnable="False" ElementName="Triangle_Button_Up" Theme="(Project Default)" Top="115" Left="330" ZOrder="0" Width="50" Height="50">
+              <GuiTriangleButton.OnUpAction>
+                <GTTActionList />
+              </GuiTriangleButton.OnUpAction>
+              <GuiTriangleButton.OnDownAction>
+                <GTTActionList />
+              </GuiTriangleButton.OnDownAction>
+              <GuiTriangleButton.ActionScriptUp>
+                <ScriptAction />
+              </GuiTriangleButton.ActionScriptUp>
+              <GuiTriangleButton.ActionScriptDown>
+                <ScriptAction />
+              </GuiTriangleButton.ActionScriptDown>
+            </GuiTriangleButton>
+            <GuiGroup ElementName="SliderUpDown" Theme="{x:Null}" Top="110" Left="5" ZOrder="0" Width="381" Height="61">
+              <GuiGroup.ElementRefs>
+                <GuiElementRefCollection>
+                  <GuiElementRef ElementName="Triangle_Button_Down" />
+                  <GuiElementRef ElementName="Slice_Graph_Value" />
+                  <GuiElementRef ElementName="Triangle_Button_Up" />
+                  <GuiElementRef ElementName="Rectangle_Background" />
+                </GuiElementRefCollection>
+              </GuiGroup.ElementRefs>
+            </GuiGroup>
+          </GuiElementCollection>
+        </Screen.Children>
+      </Screen>
+    </ScreenCollection>
+  </GTTProject.Screens>
+</GTTProject>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GTTProject FileFormatRevision="104" ProjectName="GTTProject21" Theme="Glossy" GTTProduct="GTT70A" StartScreenIndex="0" ScreenWidth="800" ScreenHeight="480" UseLoader="True" UseGlobalBitmaps="True" xmlns="clr-namespace:GTT.Project.Common;assembly=GTT.Project.Common" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <GTTProject.GlobalRegions>
+    <RegionSlotCollection />
+  </GTTProject.GlobalRegions>
+  <GTTProject.GlobalFontSlots>
+    <FontSlotCollection />
+  </GTTProject.GlobalFontSlots>
+  <GTTProject.GlobalBitmapSlots>
+    <BitmapSlotCollection />
+  </GTTProject.GlobalBitmapSlots>
+  <GTTProject.GlobalLabelSlots>
+    <LabelSlotCollection />
+  </GTTProject.GlobalLabelSlots>
+  <GTTProject.GlobalTraceSlots>
+    <TraceSlotCollection />
+  </GTTProject.GlobalTraceSlots>
+  <GTTProject.GlobalAnimationInstances>
+    <AnimationInstanceCollection />
+  </GTTProject.GlobalAnimationInstances>
+  <GTTProject.GlobalAnimationSlots>
+    <AnimationSlotCollection />
+  </GTTProject.GlobalAnimationSlots>
+  <GTTProject.GlobalNineSliceSlots>
+    <NineSliceSlotCollection />
+  </GTTProject.GlobalNineSliceSlots>
+  <GTTProject.Screens>
+    <ScreenCollection>
+      <Screen BackgroundColor="#FFFFFFFF" Name="Screen1">
+        <Screen.OnPreLoadAction>
+          <GTTActionList />
+        </Screen.OnPreLoadAction>
+        <Screen.OnPostLoadAction>
+          <ScriptActionEditor TextValue="Scripts\echo.txt" />
+        </Screen.OnPostLoadAction>
+        <Screen.Regions>
+          <RegionSlotCollection />
+        </Screen.Regions>
+        <Screen.Keys>
+          <KeySlotCollection />
+        </Screen.Keys>
+        <Screen.LinkList>
+          <GTTLinkList />
+        </Screen.LinkList>
+        <Screen.BarGraphs>
+          <BarGraphSlotCollection />
+        </Screen.BarGraphs>
+        <Screen.Labels>
+          <LabelSlotCollection />
+        </Screen.Labels>
+        <Screen.Fonts>
+          <FontSlotCollection />
+        </Screen.Fonts>
+        <Screen.Traces>
+          <TraceSlotCollection />
+        </Screen.Traces>
+        <Screen.AnimationSlots>
+          <AnimationSlotCollection />
+        </Screen.AnimationSlots>
+        <Screen.AnimationInstances>
+          <AnimationInstanceCollection />
+        </Screen.AnimationInstances>
+        <Screen.NineSliceSlots>
+          <NineSliceSlotCollection />
+        </Screen.NineSliceSlots>
+        <Screen.Bitmaps>
+          <BitmapSlotCollection />
+        </Screen.Bitmaps>
+        <Screen.Children>
+          <GuiElementCollection>
+            <GuiGradient Offset="0.990825688073401" GradientType="Linear" StartColor="#FFEEF0F2" EndColor="#FF5D5D5D" ElementName="Gradient_1" Theme="{assembly:Null}" Top="0" Left="0" ZOrder="0" Width="800" Height="480" />
+            <GuiImage DeviceRender="False" ImageString="Images\Guage-Thermometer-3.png" ImageStretch="Uniform" ImageHorizontalAlignment="Center" ImageVerticalAlignment="Center" ImageOpacity="1" PreferedImageID="-1" ElementName="Image_1" Theme="{assembly:Null}" Top="22" Left="-5" ZOrder="0" Width="240" Height="441" />
+            <GuiAdvancedBar CacheNumerics="True" PreferedBarID="4" MaxValue="110" MinValue="0" DefaultValue="80" Orientation="Vertical" BarForegroundColor="#FFEE2100" BarBackgroundColor="#FFFFFFFF" LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="2" LabelColour="#00FFFFFF" LabelDecimalPlaces="0" IsTouchEnabled="False" ElementName="Bar_Graph_1" Theme="{assembly:Null}" Top="119" Left="104" ZOrder="0" Width="22" Height="275" />
+            <GuiAdvancedLabel PreferedLabelID="5" LabelText="80" LabelFontString="Fonts\segment7\Segment7Standard.otf" LabelSize="100" LabelRotation="0" LabelHorizontalAlignment="Right" LabelVerticalAlignment="Center" LabelColour="#FFF02E2C" LabelBackgroundColour="#00FFFFFF" DynamicText="True" BlankLabel="False" CachedCharacters="0,1,2,3,4,5,6,7,8,9" ElementName="Dynamic_Label_2" Theme="{assembly:Null}" Top="107" Left="250" ZOrder="0" Width="256" Height="189" />
+            <GuiImage DeviceRender="False" ImageString="Images\Matrix Orbital Logo 1.gif" ImageStretch="Uniform" ImageHorizontalAlignment="Center" ImageVerticalAlignment="Center" ImageOpacity="1" PreferedImageID="-1" ElementName="Image_2" Theme="{assembly:Null}" Top="0" Left="691" ZOrder="0" Width="100" Height="100" />
+            <GuiAdvancedLabel PreferedLabelID="1" LabelText="° " LabelFontString="Fonts\segment7\Segment7Standard.otf" LabelSize="24" LabelRotation="0" LabelHorizontalAlignment="Center" LabelVerticalAlignment="Center" LabelColour="#FFFF0000" LabelBackgroundColour="#00FFFFFF" DynamicText="False" BlankLabel="True" CachedCharacters="" ElementName="Static_Text_1" Theme="{assembly:Null}" Top="98" Left="513" ZOrder="0" Width="50" Height="58" />
+            <GuiBasicToggle25 ButtonDisabledImageString="{assembly:Null}" ButtonFocussedImageString="{assembly:Null}" ButtonDisabledImageStretch="None" ButtonFocussedImageStretch="None" ButtonDisabledImageHorizontalAlignment="Center" ButtonFocussedImageHorizontalAlignment="Center" ButtonDisabledImageVerticalAlignment="Center" ButtonFocussedImageVerticalAlignment="Center" HasFocus="False" ButtonIsEnabled="True" DownKeyID="69" PreferedRegionID="2" ButtonUpImageString="Images\Rocker_Switch_Down_Green.png" ButtonDownImageString="Images\Rocker_Switch_Up.png" ButtonUpImageStretch="Uniform" ButtonDownImageStretch="Uniform" ButtonUpImageHorizontalAlignment="Center" ButtonDownImageHorizontalAlignment="Center" ButtonUpImageVerticalAlignment="Center" ButtonDownImageVerticalAlignment="Center" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" InitialState="False" LockWidthHeight="False" ElementName="Image_Toggle_1" Theme="{assembly:Null}" Top="341" Left="642" ZOrder="0" Width="136" Height="137">
+              <GuiBasicToggle25.OnUpAction>
+                <SetBacklight ByteValue="255" />
+              </GuiBasicToggle25.OnUpAction>
+              <GuiBasicToggle25.OnDownAction>
+                <SetBacklight ByteValue="25" />
+              </GuiBasicToggle25.OnDownAction>
+              <GuiBasicToggle25.ActionScriptUp>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptUp>
+              <GuiBasicToggle25.ActionScriptDown>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptDown>
+            </GuiBasicToggle25>
+            <GuiAdvancedLabel PreferedLabelID="3" LabelText="Backlight" LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="21" LabelRotation="0" LabelHorizontalAlignment="Center" LabelVerticalAlignment="Center" LabelColour="#FFFFFFFF" LabelBackgroundColour="#00FFFFFF" DynamicText="False" BlankLabel="False" CachedCharacters="" ElementName="Static_Text_2" Theme="{assembly:Null}" Top="302" Left="624" ZOrder="0" Width="174" Height="45" />
+            <GuiBasicToggle25 ButtonDisabledImageString="{assembly:Null}" ButtonFocussedImageString="{assembly:Null}" ButtonDisabledImageStretch="None" ButtonFocussedImageStretch="None" ButtonDisabledImageHorizontalAlignment="Center" ButtonFocussedImageHorizontalAlignment="Center" ButtonDisabledImageVerticalAlignment="Center" ButtonFocussedImageVerticalAlignment="Center" HasFocus="False" ButtonIsEnabled="True" DownKeyID="69" PreferedRegionID="6" ButtonUpImageString="Images\Icon-Red-2.png" ButtonDownImageString="Images\Icon-Green-3.png" ButtonUpImageStretch="Uniform" ButtonDownImageStretch="Uniform" ButtonUpImageHorizontalAlignment="Center" ButtonDownImageHorizontalAlignment="Center" ButtonUpImageVerticalAlignment="Center" ButtonDownImageVerticalAlignment="Center" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" InitialState="False" LockWidthHeight="True" ElementName="Image_Toggle_2" Theme="{assembly:Null}" Top="368" Left="250" ZOrder="0" Width="45" Height="45">
+              <GuiBasicToggle25.OnUpAction>
+                <GTTActionList />
+              </GuiBasicToggle25.OnUpAction>
+              <GuiBasicToggle25.OnDownAction>
+                <GTTActionList />
+              </GuiBasicToggle25.OnDownAction>
+              <GuiBasicToggle25.ActionScriptUp>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptUp>
+              <GuiBasicToggle25.ActionScriptDown>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptDown>
+            </GuiBasicToggle25>
+            <GuiAdvancedLabel PreferedLabelID="7" LabelText="Arduino Connected" LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="16" LabelRotation="0" LabelHorizontalAlignment="Left" LabelVerticalAlignment="Center" LabelColour="#FFEEF0F2" LabelBackgroundColour="#00FFFFFF" DynamicText="False" BlankLabel="False" CachedCharacters="" ElementName="Static_Text_3" Theme="{assembly:Null}" Top="360" Left="300" ZOrder="0" Width="264" Height="58" />
+            <GuiBasicToggle25 ButtonDisabledImageString="{assembly:Null}" ButtonFocussedImageString="{assembly:Null}" ButtonDisabledImageStretch="None" ButtonFocussedImageStretch="None" ButtonDisabledImageHorizontalAlignment="Center" ButtonFocussedImageHorizontalAlignment="Center" ButtonDisabledImageVerticalAlignment="Center" ButtonFocussedImageVerticalAlignment="Center" HasFocus="False" ButtonIsEnabled="True" DownKeyID="69" PreferedRegionID="8" ButtonUpImageString="Images\Icon-Red-2.png" ButtonDownImageString="Images\Icon-Green-3.png" ButtonUpImageStretch="Uniform" ButtonDownImageStretch="Uniform" ButtonUpImageHorizontalAlignment="Center" ButtonDownImageHorizontalAlignment="Center" ButtonUpImageVerticalAlignment="Center" ButtonDownImageVerticalAlignment="Center" UseUpScreenLink="False" UseDownScreenLink="False" UpScreenIndex="0" DownScreenIndex="0" UseUpBuzzer="False" UseDownBuzzer="False" UseUpMotor="False" UseDownMotor="False" UpFrequency="500" DownFrequency="500" UpDuration="500" DownDuration="500" UseUpBrightness="False" UseDownBrightness="False" UpBrightness="255" DownBrightness="255" InitialState="False" LockWidthHeight="True" ElementName="Image_Toggle_3" Theme="{assembly:Null}" Top="422" Left="250" ZOrder="0" Width="45" Height="45">
+              <GuiBasicToggle25.OnUpAction>
+                <GTTActionList />
+              </GuiBasicToggle25.OnUpAction>
+              <GuiBasicToggle25.OnDownAction>
+                <GTTActionList />
+              </GuiBasicToggle25.OnDownAction>
+              <GuiBasicToggle25.ActionScriptUp>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptUp>
+              <GuiBasicToggle25.ActionScriptDown>
+                <ScriptAction />
+              </GuiBasicToggle25.ActionScriptDown>
+            </GuiBasicToggle25>
+            <GuiAdvancedLabel PreferedLabelID="10" LabelText="Temp Probe Connected" LabelFontString="Fonts\libra-sans-modern\LibraSansModern.ttf" LabelSize="16" LabelRotation="0" LabelHorizontalAlignment="Left" LabelVerticalAlignment="Center" LabelColour="#FFEEF0F2" LabelBackgroundColour="#00FFFFFF" DynamicText="False" BlankLabel="True" CachedCharacters="" ElementName="Static_Text_4" Theme="{assembly:Null}" Top="414" Left="300" ZOrder="0" Width="324" Height="58" />
+            <GuiBox DeviceOnly="False" ConstrainWidthToHeight="False" CornerSize="0" BorderColour="#00FFFFFF" BackgroundColour="#00FFFFFF" LockWidthHeight="False" ElementName="Rectangle_1" Theme="{assembly:Null}" Top="100" Left="104" ZOrder="0" Width="22" Height="22.0000000000002" />
+            <GuiBox DeviceOnly="False" ConstrainWidthToHeight="False" CornerSize="4" BorderColour="#FFFFFFFF" BackgroundColour="#FFFFFFFF" LockWidthHeight="False" ElementName="Rectangle_2" Theme="{assembly:Null}" Top="96" Left="104" ZOrder="0" Width="22" Height="80" />
+          </GuiElementCollection>
+        </Screen.Children>
+      </Screen>
+    </ScreenCollection>
+  </GTTProject.Screens>
+  <GTTProject.GlobalBarGraphs>
+    <BarGraphSlotCollection />
+  </GTTProject.GlobalBarGraphs>
+</GTTProject>
