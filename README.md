@@ -16,3 +16,5 @@ https://create.arduino.cc/projecthub/MatrixOrbital/matrix-orbital-gtt-tft-thermo
 Support Forum
 
 http://www.lcdforums.com/forums/viewtopic.php?f=44&t=6751
+
+<img src=Cover.jpg></img>
